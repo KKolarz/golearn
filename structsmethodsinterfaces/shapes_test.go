@@ -40,15 +40,4 @@ func TestArea(t *testing.T) {
 		checkArea(t, tt.shape, tt.hasArea)
 	}
 
-	// t.Run("Rectangles:", func(t *testing.T) {
-	// 	rectangle := Rectangle{10.0, 5.0}
-
-	// 	checkArea(t, rectangle, 50.0)
-	// })
-
-	// t.Run("Circles:", func(t *testing.T) {
-	// 	circle := Circle{10.0}
-
-	// 	checkArea(t, circle, 314.1592653589793)
-	// })
 }
